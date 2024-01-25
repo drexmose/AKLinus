@@ -436,7 +436,7 @@ let cap = `╭════〘 𝓐𝓚𝓛𝓲𝓷𝓾𝓼 𝐁𝐎𝐓 〙═�
 if (menu === 'VIDEO') {
 
                    client.sendMessage(m.chat, {
-                        video: fs.readFileSync('./aklinus.mp4'),
+                        video: fs.readFileSync('./Menu-Ak.mp4'),
                         caption: cap,
                         gifPlayback: true
                     }, {
